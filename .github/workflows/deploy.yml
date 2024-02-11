@@ -39,7 +39,7 @@ jobs:
             [group1]
             192.168.1.12
           vault_password: ${{ secrets.VAULT_PASSWORD }}
-          requirements: galaxy-requirements.yml
+          # requirements: galaxy-requirements.yml
           options: |
             --inventory .hosts
             --limit group1
